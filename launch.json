@@ -1,0 +1,24 @@
+{
+  "kind": "custom_token",
+  "token": {
+    "contract": "IMDwindowshopper",
+    "name": "IMDwindowshopper",
+    "symbol": "WWW",
+    "decimals": 18,
+    "constructorArgs": [],
+    "totalSupply": "1000000000000000000000000000"
+  },
+  "contracts": [],
+  "pool": {
+    "pairedCurrency": "0xd34a99bc0f67ae1bbd63c660e6d0b0dd03e263b7",
+    "fee": 12500,
+    "tickSpacing": 60,
+    "initialPrice": "79228162514264337593543950336"
+  },
+  "economics": {
+    "poolBps": 7000,
+    "initialMarketCapWei": "2500000000000000000000",
+    "remainderTo": "0xee2aaa315cf7ed169f93148d30d24af9318dbb66"
+  },
+  "notes": "IMDwindowshopper (WWW) has 18 decimals and a fixed supply of 1,000,000,000 tokens. Its parameterless constructor mints the entire supply once to msg.sender, the launch factory. No application contracts are deployed. pool.initialPrice is provenance only; the opening price is derived from economics.initialMarketCapWei and token.totalSupply."
+}
